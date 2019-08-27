@@ -1,0 +1,25 @@
+{
+  "name": "boost_deck",
+  "version": "1.0.0",
+  "description": "A presentation for the launch day of the Boost Challenge.",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley Leadbetter",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^3.0.9"
+  },
+  "dependencies": {
+    "@mdx-deck/themes": "^3.0.8",
+    "react": "^16.9.0",
+    "react-iframe": "^1.8.0",
+    "rebass": "^4.0.5",
+    "recharts": "^1.7.1",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.1.1",
+    "superbox": "^2.1.0"
+  }
+}
