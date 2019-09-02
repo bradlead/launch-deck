@@ -18,5 +18,7 @@ Supporting Material
 
 👉 [Intro to coding: Day Zero - CL Mystery](https://github.com/veltman/clmystery "The command line murders")
 
+👉 [To read the presentation deck click here](https://github.com/bradlead/launch-deck/blob/master/deck.mdx "Deck.mdx")  
+
 
 > If you'd like to try the command line exercise again at home then download the file as a zip and open it using your command line by changing directory into the downloads folder.
