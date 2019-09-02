@@ -1,7 +1,9 @@
-import { themes } from 'mdx-deck'
-import { Image, Appear } from 'mdx-deck';
+import { themes, Image, Appear, Notes, Split } from 'mdx-deck'
+
 import { RandomlyPlaced } from './components/randomly-placed';
 import { Box } from 'rebass'
+
+
 
 export const theme = themes.yellow
 
@@ -9,17 +11,31 @@ export const theme = themes.yellow
 # 2019 Boost Challenge 
 <p>Launch day 🚀</p>
 
+
+
+<Notes />
+
+
+
+---
+
+### Head to sli.do and use event code #boost
+<Notes />
+
+
 ---
 
 <Box 
   width={[ 4, 2, 3/4 ]} bg='background' p='4' color="black">
     <center>
-    <h1>How today will run</h1>
-    </center>
-    <center>
-    <img width="600" align="right" src="https://media.giphy.com/media/l2JHSH9vQPPgNujdK/giphy.gif" />
-    </center>
+      <h3>👋 My name's Brad and I like gifs</h3>
+      <img width="600" align="right" src="https://media.giphy.com/media/l2JHSH9vQPPgNujdK/giphy.gif" />
+    </center>    
 </Box>
+
+<Notes />
+  
+
 
 ---
 
@@ -27,9 +43,14 @@ import Iframe from "./components/iframe"
 
 <Iframe />
 
+
+
 ---
 
 # Our Journey So Far...
+<Notes />
+
+  
 
 ---
 
@@ -38,6 +59,8 @@ import Iframe from "./components/iframe"
 - Why, feedback, how we decided❓
 - Challenges we faced ⚙️
 - Our Goals 🥅
+
+
 
 ---
 
@@ -100,6 +123,50 @@ import Iframe from "./components/iframe"
   <div>
     <RandomlyPlaced
       style={{
+        transform: 'rotate(-10deg)',
+        top: '12%',
+        left: '55%'
+      }}
+    >
+      T Shaped
+    </RandomlyPlaced>
+  </div>
+  <div>
+    <RandomlyPlaced
+      style={{
+        transform: 'rotate(-18deg)',
+        top: '60%',
+        left: '5%'
+      }}
+    >
+      Feature Teams
+    </RandomlyPlaced>
+  </div>
+  <div>
+    <RandomlyPlaced
+      style={{
+        transform: 'rotate(-2deg)',
+        top: '5%',
+        left: '30%'
+      }}
+    >
+      Next Up
+    </RandomlyPlaced>
+  </div>
+  <div>
+    <RandomlyPlaced
+      style={{
+        transform: 'rotate(-15deg)',
+        top: '10%',
+        left: '0%'
+      }}
+    >
+      Level-up ⬆ ️
+    </RandomlyPlaced>
+  </div>
+  <div>
+    <RandomlyPlaced
+      style={{
         top: 0,
         bottom: 0,
         left: 0,
@@ -116,9 +183,19 @@ import Iframe from "./components/iframe"
   </div>
 </Appear>
 
+  
+---
+# Boost Challenge 🚀
+<img src="https://media.giphy.com/media/S1KVk9aNj1xqE/giphy.gif" />
+
+    
 ---
 
-# We're on our way
+import Chart from "./components/Chart"
+
+# Results are in
+
+<Chart />
 
 
 ---
@@ -128,59 +205,52 @@ import Iframe from "./components/iframe"
 </Appear>
 
 ---
-import Chart from "./components/Chart"
-
-# Results are in
-
-
-<Chart />
-
----
 
 # Four focus areas
-
-<p>You won't be marked against these areas, they are just a starting point.</p>
+<Box bg='background' p='4' color="black">
+<center>
+<p>You won't be marked against these areas,
+they are just a starting point.</p>
+</center>
+</Box>
 
 - Culture change
-- People (Diversity, including age groups)
+- People
 - Skill shift
 - Continuous learning 
 
----
-
-# Culture
-<p> Aligned workers feel connected to their companies and inspired to do their best work.
-Aligned workers have a clear understanding of their company’s strategy, their own personal goals and how those two things connect. Ninety percent of them know what they need to do in their roles to be successful.
-Slack: State of Work Report 2019</p>
 
 ---
 
----
 <Box 
   width={[ 4, 2, 3/4 ]} bg='background' p='4' color="black">
     <center>
     <h3>"As we transition from being a traditional bank into a tech company, how do we ensure that our people have the skills and knowledge necessary to deliver market leading products & services to our customers?"
 </h3>
     </center>
-
-
 </Box>
 
----
-
-# Judging Criteria
-
-* Skills Built
-* Problem Statement
-* Feasibility
-* Presentation
 
 ---
 
-- Learning plan
-- Question
-- Focus areas
-- Competition schedule
+<Split>
+<h1>Judging Criteria</h1>
+
+<p>💪 Skills Built</p>
+<p>📢 Problem Statement</p>
+<p>🤔 Feasibility</p>
+<p>🖼 Presentation</p>
+
+</Split>
+
+---
+
+### Which session should we run next? 
+#### AOB?
+
+---
+
+<iframe src="https://infographics.sli.do/?i=YmM4NjM1OWEtZWYxZC00YjJmLWE2MDItMDdhMTgwYjBmNTFl" height="100%" width="100%"></iframe>
 
 ---
 
